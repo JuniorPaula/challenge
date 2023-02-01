@@ -19,6 +19,12 @@ export class StatesUsecase {
     return result
   }
 
+  async findAllStates() {
+    const states = await this.getStates()
+
+    return states
+  }
+
   async getStates() {
     const { states } = JSON.parse(
       await readFile(new URL('../database/states.json', import.meta.url)),
