@@ -1,12 +1,14 @@
 import { StatesUsecase } from '../usecases/states-usecase.js'
 
-export class StatesController {
+export class PopulationController {
   async handle(request, response) {
     try {
-      const statesUsecase = new StatesUsecase()
-      const states = await statesUsecase.findStates()
+      const { uf } = request.params
 
-      return response.status(200).json(states)
+      const statesUsecase = new StatesUsecase()
+      const state = await statesUsecase.findPopulationByUf({ uf })
+
+      return response.status(200).json(state)
     } catch (err) {
       return response.status(500).json({
         error: {
