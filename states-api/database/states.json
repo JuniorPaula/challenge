@@ -1,0 +1,139 @@
+{
+    "states": [
+        {
+            "name": "São Paulo",
+            "uf": "SP",
+            "population": 45919049	
+        },
+        {
+            "name": "Distrito Federal",
+            "uf": "DF",
+            "population": 3015268		
+        },
+        {
+            "name": "Rio de Janeiro",
+            "uf": "RJ",
+            "population": 17264943		
+        },
+        {
+            "name": "Alagoas",
+            "uf": "AL",
+            "population": 3337357		
+        },
+        {
+            "name": "Sergipe",
+            "uf": "SE",
+            "population": 2298696		
+        },
+        {
+            "name": "Pernambuco",
+            "uf": "PE",
+            "population": 2298696		
+        },
+        {
+            "name": "Espírito Santo",
+            "uf": "ES",
+            "population": 4018650		
+        },
+        {
+            "name": "Santa Catarina",
+            "uf": "SC",
+            "population": 7164788			
+        },
+        {
+            "name": "Paraíba",
+            "uf": "PB",
+            "population": 4018127			
+        },
+        {
+            "name": "Rio Grande do Norte",
+            "uf": "RN",
+            "population": 3506853			
+        },
+        {
+            "name": "Ceará",
+            "uf": "CE",
+            "population": 3506853			
+        },
+        {
+            "name": "Paraná",
+            "uf": "PR",
+            "population": 11433957			
+        },
+        {
+            "name": "Rio Grande do Sul",
+            "uf": "RS",
+            "population": 11377239			
+        },
+        {
+            "name": "Minas Gerais",
+            "uf": "MG",
+            "population": 21168791			
+        },
+        {
+            "name": "Bahia",
+            "uf": "BA",
+            "population": 14873064			
+        },
+        {
+            "name": "Maranhão",
+            "uf": "MA",
+            "population": 7075181			
+        },
+        {
+            "name": "Goiás",
+            "uf": "GO",
+            "population": 7018354			
+        },
+        {
+            "name": "Piauí",
+            "uf": "PI",
+            "population": 3273227			
+        },
+        {
+            "name": "Mato Grosso do Sul",
+            "uf": "MS",
+            "population": 2778986			
+        },
+        {
+            "name": "Rondônia",
+            "uf": "RO",
+            "population": 1777225			
+        },
+        {
+            "name": "Pará",
+            "uf": "PA",
+            "population": 8602865			
+        },
+        {
+            "name": "Amapá",
+            "uf": "AP",
+            "population": 845731			
+        },
+        {
+            "name": "Tocantins",
+            "uf": "TO",
+            "population": 1572866			
+        },
+        {
+            "name": "Acre",
+            "uf": "AC",
+            "population": 881935				
+        },
+        {
+            "name": "Mato Grosso",
+            "uf": "MT",
+            "population": 3484466				
+        },
+        {
+            "name": "Roraima",
+            "uf": "RR",
+            "population": 4144597				
+        },
+        {
+            "name": "Amazonas",
+            "uf": "AM",
+            "population": 4144597				
+        }
+    ]
+}
