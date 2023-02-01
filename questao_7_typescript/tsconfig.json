@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+      "module": "CommonJS",
+      "target": "es2019",
+      "baseUrl": "questao_7_typescript",
+      "moduleResolution": "node",
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": []
+}
