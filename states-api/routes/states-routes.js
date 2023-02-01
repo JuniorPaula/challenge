@@ -1,9 +1,10 @@
 import { Router } from 'express'
+import { StatesController } from '../controllers/states-controller.js'
 
 const statesRouter = Router()
 
-statesRouter.get('/', async (req, res) => {
-  return res.end('hello states')
-})
+const statesController = new StatesController()
+
+statesRouter.get('/', statesController.handle)
 
 export { statesRouter }
