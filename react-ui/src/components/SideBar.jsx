@@ -11,7 +11,7 @@ const SideBar = () => {
                 SidebarData.map((item, index) => {
                   return (
                     <div key={index}>
-                      <NavLink to={item.path} className='pl-7 mt-7 w-full h-4 flex justify-start items-center text-white text-2x1 space-x-1 font-bold'>
+                      <NavLink to={item.path} className='pl-7 mt-7 w-full h-4 flex justify-start items-center text-black text-2x1 space-x-1'>
                         <span>{item.icon}</span>
                         <span>{item.title}</span>
                       </NavLink>

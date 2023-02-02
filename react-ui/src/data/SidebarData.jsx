@@ -2,7 +2,7 @@ import { FaSearch } from 'react-icons/fa'
 
 export const SidebarData = [
     {
-        title: "Home",
+        title: "/v2/estados",
         path: "/",
         icon: <FaSearch />
     },
