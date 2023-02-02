@@ -1,0 +1,24 @@
+version: '3.1'
+
+services:
+  node:
+    image: "node:16"
+    user: "node"
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./app:/home/node/app
+    ports:
+      - "8888:8888"
+    command: "npm start"
+
+  mysqlsrv:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: "admin"
+      MYSQL_DATABASE: "nodejs"
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./db:/data/db
