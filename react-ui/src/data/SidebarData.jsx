@@ -10,5 +10,10 @@ export const SidebarData = [
         title: "Estados",
         path: "/states",
         icon: <FaSearch />
+    },
+    {
+        title: "População",
+        path: "/population",
+        icon: <FaSearch />
     }
 ]

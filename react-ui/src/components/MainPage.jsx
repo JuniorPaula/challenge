@@ -16,11 +16,11 @@ const MainPage = () => {
       {/** sidebar section */}
       <section>
         <div className='grid grid-cols-12'>
-          <div className='col-span-3 bg-black h-screen pl-2'>
+          <div className='col-span-2 bg-black h-screen pl-2'>
             <SideBar />
           </div>
 
-          <div className='col-span-9 bg-gray-200 h-screen pl-2'>
+          <div className='col-span-10 bg-gray-200 h-screen pl-2'>
             <NavPage />
           </div>
         </div>

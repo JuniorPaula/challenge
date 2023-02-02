@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { BrowserRouter } from 'react-router-dom'
 import reactLogo from './assets/react.svg'
 import MainPage from './components/MainPage'
 import './App.css'
@@ -6,7 +7,9 @@ import './App.css'
 function App() {
     return (
       <React.Fragment>
-        <MainPage />
+        <BrowserRouter>
+          <MainPage />
+        </BrowserRouter>
       </React.Fragment>
     )
 }
