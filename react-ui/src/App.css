@@ -1,18 +1,11 @@
-.centered {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    font-size: 24px;
-}
-
-.states-container {
+.page-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.states-title {
+.main-title {
     font-size: 28px;
     font-weight: bold;
     margin: 10px 0;
@@ -22,4 +15,12 @@
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 5px;
+}
+
+.population {
+    margin-top: 30px;
+}
+
+.population-value {
+    margin-bottom: 10px;
 }

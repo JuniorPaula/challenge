@@ -22,8 +22,8 @@ const States = () => {
   return (
     <React.Fragment>
       <section>
-        <div className='states-container'>
-          <h2 className='states-title'>Lista de estados</h2>
+        <div className='page-container'>
+          <h2 className='main-title'>Lista de estados</h2>
           {states.length === 0 ? <p>Carregando...</p> : (
           states.map((state, index) => (
             <ul key={index}>
