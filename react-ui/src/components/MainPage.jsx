@@ -1,5 +1,6 @@
 import React from 'react'
 import NavBar from './NavBar'
+import NavPage from './NavPage'
 import SideBar from './SideBar'
 
 const MainPage = () => {
@@ -19,7 +20,9 @@ const MainPage = () => {
             <SideBar />
           </div>
 
-          <div className='col-span-9 bg-gray-200 h-screen pl-2'></div>
+          <div className='col-span-9 bg-gray-200 h-screen pl-2'>
+            <NavPage />
+          </div>
         </div>
       </section>
     </React.Fragment>
